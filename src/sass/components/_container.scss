@@ -1,0 +1,7 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  @include flex-center;
+  background-color: $field-color4;
+  color: $field-color1;
+}
