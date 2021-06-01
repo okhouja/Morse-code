@@ -1,4 +1,4 @@
-export const morseCodes = {
+const MorseCodes = {
   A: ".-",
   B: "-...",
   C: "-.-.",
@@ -41,4 +41,4 @@ export const morseCodes = {
   "!": "-.-.--",
 };
 
-export default morseCodes;
+export default MorseCodes;
