@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Morse from "./components/morseCode";
+import morseCode from "./components/morseCode";
 function App() {
   // const [converter, setConverter] = Component([]);
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      {/* <Morse setConverter={setConverter} /> */}
+      {/* <morseCode setConverter={setConverter} /> */}
       <Footer />
     </React.Fragment>
   );
