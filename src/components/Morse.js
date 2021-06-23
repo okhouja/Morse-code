@@ -20,9 +20,9 @@ const MorseConverter = () => {
   }
   return (
     <div>
-      <textarea id="userInput" rows="5" onChange={changeHandle} />
+      <input id="userInput" rows="5" onChange={changeHandle} />
       <button onClick={convertToMorse}>convert</button>
-      <div>{result}</div>
+      <div className="result">{result}</div>
     </div>
   );
 };
